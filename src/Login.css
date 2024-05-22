@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+/* .input-group {
+    padding: 20px;
+  } */
+
+/* button {
+  padding: 10px 15px;
+} */
+
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 300px;
+  }
+  .cust {
+    padding-top: 60%;
+  }
+  /* .bttn {
+    display: flex;
+    flex-direction: end;
+  } */
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
